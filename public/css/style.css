@@ -1,0 +1,294 @@
+*{
+    font-family: 'DynaPuff', cursive;
+
+  }
+ul,li{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+.select-time-ul .select-time{
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+li.errors{
+    background:black;
+    padding: 5px;
+    display: block;
+    color: #cd3700;
+    border: 1px solid #cd3700;
+    margin-bottom: 3px;
+    border-radius: 4px;
+}
+
+.complete-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.complete-form i{
+    font-size: 15em;
+    color: green;
+}
+
+.complete-form span{
+    font-size: 20px;
+}
+
+
+.appointment-card{
+    background-color: #9f9f9f;
+    border: 1px solid #ff45003b;
+    box-shadow: 3px 3px #cd3700;
+    padding: 10px;
+}
+.appointment-card .appointment-number{
+    text-align: center;
+    font-size: 17px;
+    background-color: #cd3700;
+    color: #fff;
+    border-radius: 10px;
+}
+.appointment-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab-pane{
+    padding: 30px 0;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background-color: #9f9f9f;
+    border-color: #cd3700 #cd3700 white;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #cd3700 #cd3700 #dee2e6;
+    background-color: #9f9f9f;
+    color: #fff;
+}
+
+.card-style{
+    margin-bottom:30px;
+}
+.new-appointment{
+    position: absolute;
+    /* top: 0; */
+    right: 0px;
+    bottom: 0;
+    background-color: #cd3700;
+    padding: 0px 5px 0px 5px;
+    border-radius: 6px;
+}
+.new-appointment.waiting-new{
+    position: absolute;
+    /* top: 0; */
+    right: 0px;
+    bottom: 0;
+    background-color: green;
+    padding: 0px 5px 0px 5px;
+    border-radius: 6px;
+}
+
+.new-appointment.cancel-new{
+    position: absolute;
+    /* top: 0; */
+    right: 0px;
+    bottom: 0;
+    background-color: darkred;
+    padding: 0px 5px 0px 5px;
+    border-radius: 6px;
+}
+
+.appintment-buttons button{
+    background-color: #fff;
+    box-shadow: 1px 1px 0 0px #fff;
+    border-color: #fff;
+    border-radius: 5px;
+    color: #cd3700;
+}
+
+.appintment-buttons button:hover{
+    background-color: #cd3700;
+    box-shadow: 1px 1px 0 0px #cd3700;
+    border-color: #cd3700;
+    border-radius: 5px;
+    color: #fff;
+}
+.appintment-buttons{
+    bottom: 0;
+    margin-top: 20px;
+    margin-bottom: -9px;
+    left: 0px;
+    margin-left: -10px;
+}
+
+#form{
+    background-color: #5e5e5e;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #cd3700;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #cd3700 !important;
+    border-color: #cd3700 !important;
+    width: 30%; 
+}
+label{
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+.btn-success:hover {
+    color: #cd3700 !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+.btn-success:focus, .btn-success.focus {
+    color: #fff;
+    background-color: #2fa360;
+    border-color: #2d995b;
+    box-shadow: 0 0 0 0.2rem rgb(94 94 94) !important;
+}
+
+
+.tab-content > .tab-pane {
+    opacity: 1 !important;
+  }
+
+  .main{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .main h3{
+    color:#fff;
+    font-weight: 100;
+  }
+  .main h2{
+    color:#fff;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9f9f9f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    padding: 10px 16px;
+    z-index: 1;
+    top: 31px;
+    border-radius: 5px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .hesap{
+    background-color: #9f9f9f;
+    padding: 10px 40px;
+    border-radius: 5px;
+  }
+  .dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffff !important;
+    text-decoration: none;
+    background-color: #cd3700 !important;
+}
+.card-header.login_header{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.card.card_login{
+    background-color: #5e5e5e;
+    padding: 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #cd3700;
+    border-color: #cd3700;
+}
+.btn-link {
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: table;
+    transition: opacity 0.3s ease;
+  }
+  
+  .modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .modal-container {
+    width: 500px;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all 0.3s ease;
+  }
+  
+  .modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+  }
+  
+  .modal-body {
+    margin: 20px 0;
+  }
+  
+  .modal-default-button {
+    float: right;
+  }
+  
+  /*
+   * The following styles are auto-applied to elements with
+   * transition="modal" when their visibility is toggled
+   * by Vue.js.
+   *
+   * You can easily play with the modal transition by editing
+   * these styles.
+   */
+  
+  .modal-enter-from {
+    opacity: 0;
+  }
+  
+  .modal-leave-to {
+    opacity: 0;
+  }
+  
+  .modal-enter-from .modal-container,
+  .modal-leave-to .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
